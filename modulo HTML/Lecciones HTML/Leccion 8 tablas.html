@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      caption {
+        font-size: 25px;
+        color: purple;
+      }
+      thead {
+        background-color: yellow;
+      }
+      th,
+      td {
+        border: 2px solid purple;
+        padding: 5px;
+      }
+      table {
+        border-collapse: collapse;
+      }
+      tfoot {
+        background-color: rgb(20, 226, 20);
+        text-align: center;
+      }
+      tbody {
+        background-color: rgb(236, 236, 236);
+      }
+      #rowColor {
+        background-color: aqua;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <caption>
+        LISTA DE PASAJEROS
+      </caption>
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Edad</th>
+          <th>País</th>
+          <th>Opnión</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Kendall</td>
+          <td>22</td>
+          <td>Brazil</td>
+          <td id="rowColor" rowspan="6">Excelente</td>
+        </tr>
+        <tr>
+          <td>Yuliana</td>
+          <td>26</td>
+          <td>Colombia</td>
+        </tr>
+        <tr>
+          <td>John</td>
+          <td>30</td>
+          <td>USA</td>
+        </tr>
+        <tr>
+          <td>Maria</td>
+          <td>35</td>
+          <td>Spain</td>
+        </tr>
+        <tr>
+          <td>Ahmed</td>
+          <td>40</td>
+          <td>Egypt</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <td colspan="4">Visitantes año 2024</td>
+      </tfoot>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lección 12</title>
+    <style>
+      .container {
+        margin: 20px;
+        background-color: rgb(219, 216, 216);
+        display: inline-block;
+        padding: 20px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <form action="">
+        <label for="">Nombre:</label>
+        <input type="text" placeholder="Escriba su nombre" />
+        <br /><br />
+        <label for="">Correo:</label>
+        <input type="email" placeholder="micorreo@correo.com" />
+        <br /><br />
+        <input type="checkbox" /> <label for="">Hombre</label>
+        <input type="checkbox" /> <label for="">Mujer</label> <br /><br />
+        <label for="">Fuerza:</label>
+        <input
+          type="range"
+          name=""
+          id=""
+          min="1"
+          max="100"
+          value="50"
+          step="5"
+        />
+        <br /><br />
+        <label for="">Nivel:</label>
+        <input type="number" min="10" max="100" />
+        <br /><br />
+        <label for="">Frutas:</label>
+        <input type="text" list="frutas" />
+        <datalist id="frutas">
+          <option value="Manzana"></option>
+          <option value="Peras"></option>
+          <option value="Piña"></option>
+        </datalist>
+        <br /><br />
+        <label for="">Pasatiempos</label>
+        <br />
+        <input type="radio" name="opciones" value="Caminar" />
+        <label>Caminar</label>
+        <br />
+        <input type="radio" name="opciones" value="Dormir" />
+        <label>Dormir</label>
+        <br />
+        <input type="radio" name="opciones" value="Bailar" />
+        <label>Bailar</label>
+        <br /><br />
+        <label for="">Informe de gira</label>
+        <br />
+        <textarea name="" id="" cols="50" rows="10" disabled>
+         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit atque cumque odit aperiam dicta, maiores veniam voluptatum aliquid sit iste rerum obcaecati deserunt quibusdam aliquam optio neque necessitatibus ex quos.
+         Dolore hic harum vitae incidunt animi accusamus iusto odio ipsa distinctio ratione libero quibusdam eius quas praesentium sunt sed corporis exercitationem ea, deserunt porro rerum possimus aliquid maiores. Sunt, quis.
+        </textarea>
+        <br /><br />
+        <label for="">Ciudad</label>
+        <select name="" id="">
+          <option value="Cariari">Cariari</option>
+          <option value="Puntarenas">Puntarenas</option>
+          <option value="Primavera">Primavera</option>
+        </select>
+        <br /><br />
+        <label for="">Progreso</label>
+        <progress max="100" value="50"></progress>
+        <br /><br />
+        <button>Enviar</button>
+      </form>
+    </div>
+  </body>
+</html>

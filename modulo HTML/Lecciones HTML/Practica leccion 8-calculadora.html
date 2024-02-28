@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora</title>
+    <style>
+      td {
+        border: 5px solid #632c0d;
+        border-radius: 10px;
+        width: 50px;
+        height: 50px;
+        color: #22395f;
+        font-size: 30px;
+        text-align: center;
+        background-color: #fadda3;
+      }
+      table {
+        /* border-collapse: separate; */
+        border-spacing: 5px;
+      }
+
+      .container {
+        margin: 5%;
+        border: 5px solid #632c0d;
+        padding: 16px;
+        padding-top: 63px;
+        width: 258px;
+        border-radius: 37px;
+        /* transform: rotate(-14deg); */
+        /* transform: rotate(14deg); */
+        background-color: #caebe4;
+      }
+      td:hover {
+        background-color: #c5d4d9;
+      }
+      #box td {
+        text-align: end;
+        background-color: #c5d4d9;
+        height: 37px;
+        /* border-radius: none; */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <table>
+        <tbody>
+          <tr id="box">
+            <td colspan="4">00</td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+            <td>/</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+            <td>x</td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>0</td>
+            <td>.</td>
+            <td>=</td>
+            <td>+</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
